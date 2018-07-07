@@ -34,5 +34,5 @@ def _per(x, y):
 
 
 if __name__ == "__main__":
-    print(_per(1, 0))
-    #ThrowErr()
+    # print(_per(1, 0))
+    ThrowErr()

@@ -1,7 +1,18 @@
 from collections import OrderedDict
 from time import time
 from random import randint
+import traceback
 
+
+def p():
+    a = 0
+    b = 3
+    s = b/1
+    if a == 0:
+        raise Exception("error")
+    else:
+        print(s)
+    print("ok")
 
 
 def order():
@@ -17,6 +28,6 @@ def order():
     return a
 
 
-
-if __name__ == "__main":
-    order()
+if __name__ == "__main__":
+    # order()
+    p()

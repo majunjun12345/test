@@ -13,6 +13,21 @@ def rite():
     os.close(fd)
 
 
+num = 6
+
+def a():
+    global num
+    print num
+    num = 4
+
+def b():
+    global num
+    print num
+    num = 3
+    print num
+
 
 if __name__ == "__main__":
-    rite()
+    # rite()
+    a()
+    b()
